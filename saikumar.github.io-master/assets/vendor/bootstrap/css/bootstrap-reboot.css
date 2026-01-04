@@ -198,7 +198,8 @@ button {
 
 button:focus {
   outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  outline: 5px auto rgba(0,123,255,.25);
+  outline-color: -webkit-focus-ring-color;
 }
 
 input,

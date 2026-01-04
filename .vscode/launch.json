@@ -5,10 +5,17 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "chrome",
+      "name": "Attach to Chrome",
+      "port": 9222,
+      "request": "attach",
+      "type": "pwa-chrome",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "type": "pwa-chrome",
       "request": "launch",
       "name": "Open index.html",
-      "file": "c:\\Users\\admin\\OneDrive\\pandu\\OneDrive\\Desktop\\rajaprerak.github.io-master\\rajaprerek.github.io-master\\index.html"
+      "file": "${workspaceFolder}/index.html"
     }
   ]
 }

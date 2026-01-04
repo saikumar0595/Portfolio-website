@@ -11,7 +11,17 @@
   $(document).on('click', '.nav-menu a, .mobile-nav a', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var hash = this.hash;
-      var target = $(hash);
+      if (!hash) {
+        return;
+      }
+      var targetEl = null;
+      try {
+        // Prefer getElementById to avoid invalid selector errors for IDs with special characters
+        targetEl = document.getElementById(hash.slice(1));
+      } catch (err) {
+        targetEl = null;
+      }
+      var target = targetEl ? $(targetEl) : $(hash);
       if (target.length) {
         e.preventDefault();
 

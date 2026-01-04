@@ -1,5 +1,4 @@
-@font-face
-{
+@font-face {
     font-family: 'boxicons';
     font-weight: normal;
     font-style: normal;
@@ -11,8 +10,7 @@
     url('../fonts/boxicons.ttf') format('truetype'),
     url('../fonts/boxicons.svg?#boxicons') format('svg');
 }
-.bx
-{
+.bx {
     font-family: 'boxicons' !important;
     font-weight: normal;
     font-style: normal;

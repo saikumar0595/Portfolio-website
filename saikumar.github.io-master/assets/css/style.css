@@ -1096,3 +1096,86 @@ section .container {
     transform: translateX(-50%);
   }
 }
+
+/* Custom Styles */
+#header h2 {
+  color: #fff;
+}
+
+#header h2 span {
+  color: #12D640;
+}
+
+.about-me .img-fluid {
+  border-radius: 50%;
+}
+
+.education .icon-box {
+  padding: 0px 0px;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.education .icon-box p {
+  text-align: left;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.education .icon-box h5 {
+  text-align: left;
+  padding: 0px 10px;
+}
+
+.education .icon-box h6 {
+  text-align: left;
+  color: #fff;
+  padding: 0px 10px;
+}
+
+.education .icon-box ul {
+  text-align: left;
+  color: #fff;
+}
+
+.experience .icon-box h4 a {
+  color: #12d640;
+}
+
+.experience .icon-box h5 {
+  text-align: left;
+}
+
+.experience .icon-box p {
+  text-align: left;
+  color: #fff;
+}
+
+.experience .icon-box ul {
+  text-align: left;
+}
+
+.skills .icon-box {
+  background: #fff;
+}
+
+.skills .icon-box h4 {
+  text-align: left;
+  color: #09203a;
+}
+
+.skills .icon-box p {
+  text-align: left;
+}
+
+.links .description {
+  color: #fff;
+}
+
+.contact .info-box p a {
+  color: #fff;
+}
+
+.portfolio-details h2 {
+  color: #12d640;
+}

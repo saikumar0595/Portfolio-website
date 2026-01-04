@@ -16,7 +16,7 @@
 
 /* jshint browser: true, strict: true, undef: true, unused: true */
 
-( function( window, factory ) {
+;( function( window, factory ) {
   // universal module definition
   /*jshint strict: false */ /* globals define, module, require */
   if ( typeof define == 'function' && define.amd ) {

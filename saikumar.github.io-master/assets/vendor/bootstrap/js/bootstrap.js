@@ -13,7 +13,7 @@
   Popper = Popper && Popper.hasOwnProperty('default') ? Popper['default'] : Popper;
 
   function _defineProperties(target, props) {
-    for (var i = 0; i < props.length; i++) {
+    for (var i = 0, len = props.length; i < len; i++) {
       var descriptor = props[i];
       descriptor.enumerable = descriptor.enumerable || false;
       descriptor.configurable = true;
